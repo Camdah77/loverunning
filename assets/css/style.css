@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    background-color: #976b6b;
+    background-color: #3a3a3a;
 }
 
 
@@ -29,5 +29,5 @@ main {
 
 /* Footer */
 footer {
-    color: orange;
+    color: rgb(192, 184, 171);
 }
