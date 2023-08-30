@@ -11,18 +11,18 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    background-color: #976b6b;
 }
 
 
 /* Header */
 header {
-    color: lightcoral;
+    background-color: lightcoral;
 }
 
 /* Main content */
 main {
-    color: lightblue;
+    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
