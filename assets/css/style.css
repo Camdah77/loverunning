@@ -14,10 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    background-color: #3a3a3a;
-    font-family: Lato, 'Lato', sans-serif;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
-
 
 /* Header */
 header {
@@ -27,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -34,9 +36,16 @@ header a {
     color: inherit;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 #menu {
     font-size: 110%;
-    letter-spacing: 4 px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
@@ -45,10 +54,10 @@ header a {
 }
 
 .active {
-    border-bottom: 1 px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/*Navbar styles with dropdown toggle*/
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -57,24 +66,31 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2 px;
-    color: #252525;
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    color: rgb(192, 184, 171);
+    background-color: orange;
 }
