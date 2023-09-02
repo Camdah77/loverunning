@@ -244,6 +244,7 @@ main {
     }
 }
 
+/* Large devices (120px and wider) */
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
