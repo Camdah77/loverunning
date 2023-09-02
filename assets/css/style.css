@@ -116,37 +116,37 @@ main {
     color: #ffffff;
 }
 
-/* Reason to love boxes */
-
+/* Reasons section */
 #reasons {
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 #reasons h2 {
-    font-size: 280%;
     margin-bottom: 20px;
-    justify-content: center;
-
+    text-align: center;
+    font-size: 280%;
 }
 
-/* line under H3 */
-.reasons {
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
-.textbox {
-    line-height: 20px;
-    padding-left: o 20px;
-    margin-bottom: 20 px;
-
-
-
+#cirle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat cover center;
 }
+
 
 /* Footer */
 #social-networks {
@@ -199,10 +199,11 @@ main {
         margin-top: 79px;
     }
 
-    /* Hero image */
+    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
+
     }
 }
 
